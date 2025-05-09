@@ -68,3 +68,6 @@ This confirms the use of rotary encoders, where quadA and quadB are the two sign
 • Use BRAM to store graphics/game states like paddle and ball coordinates.
 
 
+https://github.com/user-attachments/assets/e2488d4e-2e28-4f93-bf20-152b5906e448
+
+https://github.com/user-attachments/assets/7a9485fe-1002-4c97-9986-d5dbdf74e7fe
