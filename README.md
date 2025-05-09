@@ -13,13 +13,13 @@ In the context of Pong, such a decoder translates the rotational movement of a k
 
 This file is a testbench module for verifying the behavior of a custom BRAM module. Key features:
 
-Parameters:
+• Parameters:
 
 RAM_WIDTH = 32: Width of each memory word.
 
 RAM_ADDR_BITS = 9: 512-word addressable space.
 
-Inputs/Regs:
+• Inputs/Regs:
 
 clk: Clock signal (5 ns period toggle).
 
@@ -29,7 +29,7 @@ address, input_data: Used to simulate write operations.
 
 Square position registers (e.g., sq_c_x1, sq_d1_y2): Likely related to game object coordinates.
 
-Behavior:
+• Behavior:
 
 Instantiates the bram module with specific parameters.
 
@@ -43,13 +43,13 @@ This testbench sets up and simulates writing data to BRAM which likely stores pi
 
 This file maps FPGA physical pins to logical ports in your design, tailored for the Nexys A7-100T board.
 
-Key Mappings:
+• Key Mappings:
 
 Clock: clk is mapped to pin W5.
 
 VGA Output: RGB and sync signals (e.g., vga_R, vga_G, vga_h_sync) are mapped to appropriate FPGA pins.
 
-Quadrature Inputs:
+• Quadrature Inputs:
 
 quadA → pin B18
 
@@ -59,12 +59,12 @@ This confirms the use of rotary encoders, where quadA and quadB are the two sign
 
 # 🧠 Summary of the Full System
 
-Use rotary encoder signals to control paddle movement in a game like Pong.
+• Use rotary encoder signals to control paddle movement in a game like Pong.
 
-Decode quadrature signals using FPGA logic (implemented in Verilog).
+• Decode quadrature signals using FPGA logic (implemented in Verilog).
 
-Drive VGA output for gameplay display.
+• Drive VGA output for gameplay display.
 
-Use BRAM to store graphics/game states like paddle and ball coordinates.
+• Use BRAM to store graphics/game states like paddle and ball coordinates.
 
 
