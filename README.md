@@ -57,7 +57,7 @@ quadB → pin A18
 
 This confirms the use of rotary encoders, where quadA and quadB are the two signals typically used to detect direction and rotation amount in quadrature encoding.
 
-# 🧠 Summary of the Full System
+# 🧠 Summary of the Full Systems
 
 • Use rotary encoder signals to control paddle movement in a game like Pong.
 
